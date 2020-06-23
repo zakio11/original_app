@@ -38,12 +38,12 @@ $white: white;
 }
 
 body,html {
-  height: 100%;
   background-color: $lightGray;
 }
 
 body {
   padding-top: 60px;
+  background-image: url(https://66.media.tumblr.com/2e3847acb73825f68c2d82518d87b483/5b510b19111ea83a-42/s2048x3072/8b37fb5f4326e4077937100b20210c8a74f6cd67.jpg);
 }
 
 h1,h2,h3,h4,h5,h6,body {
@@ -121,7 +121,7 @@ h1,h2,h3,h4,h5,h6 {
 header.header {
   @include basePadding;
   border-bottom: 1px solid $gray;
-  background-color: #fff;
+  background-color: lavender;
   position: fixed;
   top: 0;
   left: 0;
@@ -371,6 +371,7 @@ form {
 }
 
 footer {
+  background-color: lavender;
   @include boxBase;
   color: $gray;
   p {
